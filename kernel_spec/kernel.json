@@ -1,0 +1,3 @@
+{"argv":["python","-m","radare2", "-f", "{connection_file}"],
+ "display_name":"radare2"
+}
