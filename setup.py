@@ -19,4 +19,5 @@ setup(name="jupyter_radare2",
       )
 
 
-install_kernel_spec("./kernel_spec", "radare2", user=True, replace=True)
+install_directory = install_kernel_spec("./kernel_spec", "radare2", user=True,
+                                        replace=True)

@@ -27,7 +27,6 @@ class Radare2Kernel(Kernel):
     }
 
 
-
     def _get_r2pipe(self):
         """Get the r2pipe handle"""
 
@@ -42,7 +41,6 @@ class Radare2Kernel(Kernel):
 
         if not silent:
             result = self.r2.cmd(code)
-            print result
             stream = {"name": "stdout", "text": result}
             self.send_response(self.iopub_socket, "stream", stream)
 
