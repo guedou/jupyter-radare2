@@ -3,7 +3,8 @@
 [![GitHub tag](https://img.shields.io/github/tag/guedou/jupyter-radare2.svg)](https://github.com/guedou/r2m2/releases)
 [![Twitter Follow](https://img.shields.io/twitter/follow/guedou.svg?style=social)](https://twitter.com/intent/follow?screen_name=guedou)
 
-This is a simple radare Jupyter kernel, that can be used to make interactive
+This is a simple [radare2](https://github.com/radare/radare2)
+[Jupyter](http://jupyter.org/) kernel, that can be used to make interactive
 radare2 tutorials, or take advanced notes.
 
 ## Demos
